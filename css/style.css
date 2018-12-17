@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou"');
+
+
+/*------------------------------Nav*/
+
+
+.zexi-logo {
+    vertical-align: middle;
+    max-width: 90px;
+    max-height: 50px;
+}
+
+.header-container {
+    background-color: #fff;
+}
+
+.icon-bar {
+    background-color: #000000;
+    border-radius: 75%;
+}
+
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.menu-item a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+
+/*------------------------------Watch live*/
+
+.watch-live-container {
+    height: 100vh;
+
+    background: url('../images/temp.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.watch-live-btn {
+    color: #fff;
+    background-color: #9932cc;
+    border-color: #9932cc00;
+    border-radius: 25px;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #8c22a9a1;
+    border-color: #b826c300;
+}
+
+/*------------------------------About*/
+
+.about-container {
+    background-color: #fff;
+}
+
+/*------------------------------Footer*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/*-----------------footer---------------*/ 
+
+footer {
+    background-color: #fff;
+    color: #00000;
+    min-height: 60px;
+    margin: 0;
+    
+}
+
+
+.social-links {
+    padding-bottom: 15px;
+    
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #00000057;
+}
+
+#footer-details {
+    margin: 20px;
+} 
