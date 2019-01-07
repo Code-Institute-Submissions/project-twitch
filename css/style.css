@@ -45,8 +45,9 @@ body {
     text-decoration: none;
 }
 
+/*--------------------------------------------------Containers*/
 
-/*------------------------------Watch live*/
+/*------------------------------Watch live container*/
 
 .watch-live-container {
     height: 70vh;
@@ -95,9 +96,71 @@ body {
     border-color: #9932cc08;
 }
 
-.schedule-btn {
-    
+/*------------------------------Schedule container*/
+
+.schedule-container {
+    height: 70vh;
+
+    background: url('../images/pikatwitch.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
+
+.schedule-btn {
+    color: #fff;
+    background-color: #9932cc;
+    border-color: #9932cc00;
+    border-radius: 25px;
+}
+
+/*------------------------------Nexx container*/
+
+.nexx-container {
+    height: 70vh;
+
+    background: url('../images/pikatwitch.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nexx-btn {
+    color: #fff;
+    background-color: #9932cc;
+    border-color: #9932cc00;
+    border-radius: 25px;
+}
+
+/*------------------------------Contact container*/
+
+.contact-container {
+    height: 70vh;
+
+    background: url('../images/pikatwitch.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 
 /*------------------------------About*/
 
