@@ -161,8 +161,15 @@ body {
     position: relative;
 }
 
+.work-callout > p {
+    color: white;
+    font-size: 50px;
+}
 
-/*------------------------------About*/
+
+/*------------------------------About Containers*/
+
+/*-----------Index*/
 
 .about-container {
     background-color: #0c0c0c;
@@ -188,6 +195,110 @@ body {
     padding: 30px;
 }
 
+
+/*-----------Schedule*/
+
+.schedule-about-container {
+    background-color: #0c0c0c;
+    color: #fff;
+    min-height: 120px;
+}
+
+.schedule-section {
+    background-color: #0c0c0c;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.schedule-section p strong {
+    font-size: 20px;
+    padding: 50px;
+}
+
+.schedule-section > p {
+    padding: 50px;
+}
+
+.weekday-item {
+    padding: 1em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.weekday-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.weekday-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "B612 Mono", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.weekday-item::after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.week-stream-items {
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/*-----------Nexx*/
+
+.nexx-about-container {
+    background-color: #0c0c0c;
+    color: #fff;
+    min-height: 120px;
+}
+
+.nexx-section {
+    background-color: #0c0c0c;
+    margin-top: 65px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.nexx-section p strong {
+    font-size: 20px;
+}
+
+/*-----------Contact*/
+
+.contact-about-container {
+    background-color: #0c0c0c;
+    color: #fff;
+    min-height: 120px;
+}
+
+.contact-section {
+    background-color: #0c0c0c;
+    margin-top: 65px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.contact-section p strong {
+    font-size: 20px;
+}
 
 /*------------------------------Footer*/
 
@@ -250,6 +361,16 @@ footer {
     img {
     vertical-align: middle;
     margin-left: 25px;
+}
+
+    .week-stream-items {
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+    .schedule-section p strong {
+    font-size: 35px;
+    padding-left: 90px;
 }
 }
 
