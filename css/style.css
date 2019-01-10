@@ -12,6 +12,7 @@ body {
     float: left;
 }
 
+
 .header-container {
     overflow: hidden;
     position: fixed; 
@@ -126,7 +127,7 @@ body {
 .nexx-container {
     height: 70vh;
 
-    background: url('../images/pikatwitch.png') no-repeat center center fixed;
+    background: url('../images/nexxl.PNG') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -143,6 +144,7 @@ body {
     background-color: #9932cc;
     border-color: #9932cc00;
     border-radius: 25px;
+    margin-top: 25px;
 }
 
 /*------------------------------Contact container*/
@@ -282,6 +284,26 @@ body {
     font-size: 20px;
 }
 
+.nexx-vids {
+    text-transform: uppercase;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+.nexx-vids p strong {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nexx-vids-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nexx-vid-title {
+    margin-top: 10px;
+}
+
 /*-----------Contact*/
 
 .contact-about-container {
@@ -315,6 +337,7 @@ body {
 
 ul {
     padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 /*------------------------------Footer*/
