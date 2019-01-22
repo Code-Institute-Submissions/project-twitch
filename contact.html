@@ -26,17 +26,20 @@
     </nav>
 
     <!-------------/Mobile Header------------->
+    <!-------------/Mobile Header------------->
     <div class="visible-xs navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <a href="index.html" class="navbar-brand">Zexii</a>
-                
+
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                 <span class="icon-bar"></span>
-            </button>   
-                
+            </button>
+
             <div class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="schedule.html">SCHEDULE</a></li>  
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="schedule.html">NLG</a></li>
+                    <li><a href="schedule.html">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -71,13 +74,17 @@
                 </br>
                 <p>Please remember to include your full name in the message</p>
             </div>
-            <div class="col-md-4 col-lg-4 col-xl-4">
-                <p class="visible-xs"><strong>Get in touch</strong></p>
-                <form>
-                    <input class="form-input" type="email" name="email" placeholder="Email Address" />
-                    <input class="form-input" type="text" name="message" placeholder="Message" />
-                    <input class="form-input" type="submit" value="Submit" />
-                </form>
+            <div class="visible-xs col-md-4 col-lg-4 col-xl-4 git-container">
+                <p><strong>Get in touch</strong></p>
+                <p> Leave your name, email and busineess in the 
+                form below and i'll get back to you! </p>
+                <div class="box form-box">
+                    <form>
+                        <input class="form-input" type="email" name="email" placeholder="Email Address" />
+                        <input class="form-input form-input-message" type="text" name="message" placeholder="Message" />
+                        <input class="form-input" type="send" value="send" />
+                    </form>
+                </div>
             </div>
         </div>
     </div>
