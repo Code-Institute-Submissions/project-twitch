@@ -28,6 +28,10 @@ body {
     z-index: 9999;
 }
 
+.navbar-brand {
+    text-transform: uppercase;
+}
+
 
 .menu-item {
     text-align: center;
@@ -311,6 +315,7 @@ body {
     color: #fff;
     min-height: 120px;
     text-transform: uppercase;
+    padding: 20px;
 }
 
 .contact-section {
@@ -323,19 +328,18 @@ body {
 
 .contact-section p strong {
     font-size: 20px;
-}
-
-.git-container {
-    text-transform: uppercase;
-}
-
-.git-container{
     padding-top: 20px;
 }
 
-/*.form-box {
+.git-container p strong {
+    font-size: 20px;
     text-transform: uppercase;
-} */
+    padding: 20px;
+}
+
+.git-form {
+    display: inline;
+} 
 
 .form-input {
     background-color: #0000;
@@ -349,10 +353,6 @@ body {
     margin-left: 50px;
 }
 
-.form-input-message {
-    min-height: 20px;
-    min-width: 60px;
-}
 
 ul {
     padding-bottom: 10px;
@@ -390,8 +390,16 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.watermark {
+    margin-top: 70px;
+}
+
 .social-links li a i:hover {
     background: #9932cc;
+}
+
+.social-title {
+    text-transform: uppercase;
 }
 
 #footer-details {
@@ -413,6 +421,7 @@ footer {
     justify-content: center;
     position: relative;
 }
+
     .about-section {
     background-color: #0c0c0c;
     margin: 20px;
@@ -434,6 +443,22 @@ footer {
 }
 
 @media (max-width: 991px) {
+    .nexx-container {
+    height: 70vh;
+
+    background: url('../images/nlgm.PNG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+    
     .about-section {
     background-color: #0c0c0c;
     margin-top: 50px;
