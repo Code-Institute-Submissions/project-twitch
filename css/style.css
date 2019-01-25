@@ -51,6 +51,23 @@ body {
     text-decoration: none;
 }
 
+/*------------------------------Mobile Nav*/
+
+.navbar-inverse .navbar-nav > li > a {
+    padding-top: 40px;
+    float: left;
+    padding-left: 40px;
+
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}    
+
+.icon-bar {
+    color: #9d9d9d;
+}
+
 /*--------------------------------------------------Containers*/
 
 /*------------------------------Watch live container*/
