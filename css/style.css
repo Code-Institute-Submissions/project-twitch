@@ -124,7 +124,7 @@ body {
 .schedule-container {
     height: 70vh;
 
-    background: url('/images/pikatwitch.png') no-repeat center center fixed;
+    background: url('/images/twitch.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -439,6 +439,21 @@ footer {
     position: relative;
 }
 
+    .contact-container {
+    height: 70vh;
+
+    background: url('/images/pikatwitchm.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
     .about-section {
     background-color: #0c0c0c;
     margin: 20px;
@@ -456,6 +471,10 @@ footer {
     .schedule-section p strong {
     font-size: 35px;
     padding-left: 90px;
+}
+
+.nexx-btn {
+    margin-top: 25px;
 }
 }
 
