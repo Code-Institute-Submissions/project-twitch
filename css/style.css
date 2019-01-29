@@ -357,7 +357,7 @@ body {
 }
 
 .git-form {
-    display: inline;
+    display: inline-grid;
 } 
 
 .form-input {
@@ -372,6 +372,9 @@ body {
     margin-left: 50px;
 }
 
+.form-input-message {
+    padding-bottom: 50px;
+}
 
 ul {
     padding-bottom: 10px;
