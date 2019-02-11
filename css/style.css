@@ -76,7 +76,7 @@ body {
 .watch-live-container {
     height: 70vh;
 
-    background: url('images/ztvf.PNG') no-repeat center center fixed;
+    background: url('/images/ztvf.PNG') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -125,7 +125,7 @@ body {
 .schedule-container {
     height: 70vh;
 
-    background: url('images/twitch.jpg') no-repeat center center fixed;
+    background: url('/images/twitch.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -149,7 +149,7 @@ body {
 .nexx-container {
     height: 70vh;
 
-    background: url('images/nexxl.PNG') no-repeat center center fixed;
+    background: url('/images/nexxl.PNG') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -174,7 +174,7 @@ body {
 .contact-container {
     height: 70vh;
 
-    background: url('images/pikatwitch.png') no-repeat center center fixed;
+    background: url('/images/pikatwitch.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -327,6 +327,10 @@ body {
     margin-top: 50px;
 }
 
+.nexx-audio {
+    margin-top: 10px;
+}
+
 /*-----------Contact*/
 
 .contact-about-container {
@@ -358,6 +362,7 @@ body {
 
 .git-form {
     display: inline-grid;
+    padding-top: 60px;
 } 
 
 .form-input {
@@ -368,7 +373,6 @@ body {
     text-align: center;
     text-transform: uppercase;
     border-color: #9932cc94;
-    margin-top: 50px;
     margin-left: 50px;
 }
 
@@ -433,7 +437,7 @@ footer {
 @media (max-width: 767px) {
     .watch-live-container {
     height: 70vh;
-    background: url('images/mattset.jpeg') no-repeat center center fixed;
+    background: url('/images/mattset.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -447,7 +451,7 @@ footer {
     .contact-container {
     height: 70vh;
 
-    background: url('images/pikatwitchm.png') no-repeat center center fixed;
+    background: url('/images/pikatwitchm.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -486,7 +490,7 @@ footer {
     .nexx-container {
     height: 70vh;
 
-    background: url('images/nlgm.PNG') no-repeat center center fixed;
+    background: url('/images/nlgm.PNG') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
