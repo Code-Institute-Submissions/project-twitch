@@ -11,7 +11,7 @@ recent videos by the gaming group NLG and again provide a brief background to th
 
 ## UX
 
-This website is for s 25 year old, male streamer who has just made affiliate on Twitch and is now going for partner. 
+This website is for a 25 year old, male streamer who has just made affiliate on Twitch and is now going for partner. 
 
 They wanted an online profile which shows their streaming schedule, their gaming group NLG and a place for contact about business.
 
@@ -102,8 +102,10 @@ The information on the Contact page was written by Matt Whittington.
 
 ### Media
 
-Matt Whittington shared all of the photos and video content straight fdrom his Twitch and YouTube profiles, making information
+My Client Matt Whittington shared all of the photos and video content straight fdrom his Twitch and YouTube profiles, making information
 hunting very easy for this project. Page layout and colouring/styling was done by myself.
 
 ### Acknowledgements 
 
+I got inspiration for this project from many of my colleagues needing an online presents to promote their streaming careers.
+I took ideas from previous university projects in design work and applied them to the gamer theme which i follow.
