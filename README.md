@@ -90,6 +90,8 @@ abnormalities witht he look or functionality of the page.
 
 This site was deployed on GitHub pages through the master branch.
 
+The deployed site is identical to the original.  
+
 ## Credits
 
 ### Content
