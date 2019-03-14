@@ -17,12 +17,13 @@ They wanted an online profile which shows their streaming schedule, their gaming
 
 To achive this I have made a page giving background information about my client such as where he's from and what games he will be 
 streaming on the homepage, followed by a schedule page showing exactly when in the week you can expect to see him streaming. Following 
-this I have implimented a page to promote his joint YouTube channel 'Nexx Level Gaming'. Here I have linked some of the latest videos 
-and music we listen to while gaming/streaming to give an idea of what to expect from the channel. Finally I have made a contact page 
+this I have implimented a page to promote his joint YouTube channel 'Nexx Level Gaming'. 
+
+I have linked some of the latest videos and music we listen to while gaming/streaming to give an idea of what to expect from the channel. Finally I have made a contact page 
 which currently has an inactive html form - as JavaScript was not allowed in this project - which will be made fully functional in 
 the future. 
 
-*need links to wireframes* 
+Link to wireframes: http://s86.photobucket.com/user/OatRx/library/?sort=3&page=1
 
 ## Existing Features
 
@@ -87,6 +88,7 @@ abnormalities witht he look or functionality of the page.
 
 ## Deployment
 
+This site was deployed on GitHub pages through the master branch.
 
 ## Credits
 
@@ -102,7 +104,7 @@ The information on the Contact page was written by Matt Whittington.
 
 ### Media
 
-My Client Matt Whittington shared all of the photos and video content straight fdrom his Twitch and YouTube profiles, making information
+My client Matt Whittington shared all of the photos and video content straight fdrom his Twitch and YouTube profiles, making information
 hunting very easy for this project. Page layout and colouring/styling was done by myself.
 
 ### Acknowledgements 
