@@ -12,7 +12,6 @@ body {
     float: left;
 }
 
-
 .header-container {
     overflow: hidden;
     position: fixed; 
@@ -31,7 +30,6 @@ body {
 .navbar-brand {
     text-transform: uppercase;
 }
-
 
 .menu-item {
     text-align: center;
@@ -63,7 +61,6 @@ body {
 .navbar-inverse .navbar-brand {
     color: #ffffff;
 }    
-
 
 .icon-bar {
     color: #9d9d9d;
